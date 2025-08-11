@@ -1,0 +1,624 @@
+	body{
+		font-family: "Lato", sans-serif;
+		
+	}
+
+	li{
+		list-style-type: none;
+	}
+
+	.form-btn{
+		font-family: "Bebas Neue", sans-serif;
+	}
+
+	.bg-color{
+		color: #ffc61a;
+	}
+
+	.bg-color-2{
+		color: #000;
+	}
+
+	.btn-dark{
+		background-color: #000;
+		color: #fff;
+		font-family: "Bebas Neue", sans-serif;
+		border-color: #000;
+		letter-spacing: 1px;
+	}
+
+	.btn-orange {
+		background-color: #ffc61a;
+		color: #000;
+		font-family: "Bebas Neue", sans-serif;
+		border-color: #000;
+		padding: 3px 40px;
+		font-size: 25px;
+	}
+
+	.btn-orange:hover{
+		background-color: #ffffff;
+		color: #000000;
+		font-family: 'Bebas Neue' cursive;
+		transition: 0.4s;
+	}
+
+
+/* =============== header section starts===============  */
+
+
+	header{
+		background: url(images/header/header-bg-img.png);
+		background-repeat: no-repeat;
+		padding: 30px 0px;
+		background-size: cover;
+		height: 100%;
+	}
+
+	.header-menu .header-list .header-item {
+		color: #fff;
+		font-weight: bold;
+		border-radius: 15px;
+		padding: 5px 19px;
+	}
+
+	.header-menu .header-list .header-item:hover {
+		color: #000;
+		border-radius: 15px;
+		background: #ffc61a;
+		
+	}
+
+	header .header-menu .btn{
+		background-color: rgb(155, 151, 151);
+		color: #ffffff;
+	}
+
+	header .header-menu .btn:hover{
+		background-color: rgb(102, 96, 96);
+		color: #a7a1a1;
+	}
+
+	.navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link {
+		color: #000;
+		background: #ffc61a;
+		font-weight: bold;
+		border-radius: 15px;
+		padding: 4px 15px;
+		transition: 0.4s;
+	}
+
+	.header-title h3 {
+		font-size: 30px;
+		font-weight: 700;
+		letter-spacing: -1px;
+		color: #ffc61a;
+	}
+
+	.header-title h2 {
+		font-size: 57px;
+		font-weight: bold;
+		letter-spacing: -2px;
+		line-height: 45px;
+	}
+
+	.header-title p {
+		font-size: 16px;
+		letter-spacing: 11px;
+		line-height: 50px;
+		font-weight: 700;
+	}
+
+	.header-title img {
+		position: relative;
+		top: 140px;
+	}
+
+
+/* =============== header section ends===============  */
+
+
+/* =============== servies section starts===============  */
+
+	.form-menu{
+		display: flex;
+	}
+
+	.s2-content {
+		background-color: #ffc61a;
+		height: 670px;
+		font-family: "Lato", sans-serif;
+	}
+
+	.left-content {
+		padding-top: 160px;
+	}
+
+	.left-content {
+		max-width: 538px;
+	}
+
+	.left-content h3 {
+		font-size: 35px;
+		font-weight: 800;
+		padding-bottom:0px;
+		color: #000;
+	}
+
+	.left-content h2 {
+		font-weight: 700;
+		font-size: 50px;
+		color: #000;
+	}
+
+	.left-content p {
+		color: #3e3212;
+		font-weight: 498;
+		font-size: 18px;
+	}
+
+	.s2-btn button {
+		background: black;
+		border-radius: 5px;
+		color: #fff;
+		display: inline;
+		font-family: "Bebas Neue", sans-serif;
+		font-size: 20px;
+		padding: 4px 33px;
+	}
+
+	.s2-btn button:hover {
+		color:#ffc61a;
+	}
+
+	.s2-content .right-content h2{
+		background-color: #000;
+		font-weight: 700;
+		font-size: 35px;
+	}
+
+	.right-content {
+		height: 470px;
+		margin-top: 160px;
+	}
+
+	.right-content .form-control::placeholder {
+		color: #000;
+	}
+
+	.s2-content .right-content input {
+		border: none;
+		border-bottom: 3px solid #e4e4e4;
+		border-radius: 0px;
+		padding-bottom: 10px;
+	}
+
+	.s2-content .right-content input:focus {
+		border-bottom: 3px solid #ffc61a;
+	}
+
+	.s2-content .right-content .form-control .form-control{
+		padding: 0px 12px;
+	}
+
+	.s2-content .right-content .form-control {
+		box-shadow: none;
+		padding: 0px;
+		outline: none;
+		border: none;
+		border-bottom: 3px solid #e4e4e4;
+		border-radius: 0px;
+	}
+
+	.right-content .form-control option ::placeholder {
+		color: #000;
+	}
+
+	.s2-content .right-content .form-menu input {
+		margin-bottom: 30px;
+	}
+
+	.form-btn {
+		padding-top: 30px;
+	}
+
+	.form-btn a {
+		background-color: #000;
+		border-radius: 6px;
+		color: #fff;
+		font-size: 29px;
+		padding: 0;
+	}
+
+	form .form-btn a :hover{
+		color: #ffc61a;
+
+	}
+
+
+	/* .s2-content{
+		background-color: #ffc61a;
+		height: 670px;
+	}
+	.left-content {
+		padding-top: 120px;
+		padding-right: 89px;
+	}
+	.left-content h3 {
+		font-weight: 600;
+		padding-bottom:0px;
+	}
+	.left-content h2 {
+		font-weight: 600;
+		font-size: 45px;
+	}
+	.left-content p {
+		color: #3e3212;
+		font-weight: 498;
+	}
+	.s2-btn button {
+		background: black;
+		border-radius: 5px;
+		color: #fff;
+		display: inline;
+		font-family: "Bebas Neue", sans-serif;
+		font-size: 20px;
+		padding: 4px 33px;
+	}
+	.s2-btn button:hover {
+		color:#ffc61a;
+	}
+	.right-content {
+		width: 380px;
+		background: #fff;
+		margin-bottom: 49px;
+	}
+	.right-content form {
+		background: #fff;
+	}
+	.right-content form a  {
+		background: #000000;
+	}
+	.right-content h2 {
+		margin-top: 156px;
+		background-color: #000;
+	}
+	.right-content input {
+		border: 0;
+		width: 162px;
+		outline: none;
+		margin-bottom: 20px;
+		display: inline-block;
+		border-bottom: 2px solid #e4e4e4;
+		border-radius: 0;
+	}
+	.right-content .form-control::placeholder {
+		color: #000;
+	}
+	.right-content form select {
+		border: 0;
+		border-bottom: 2px solid #e4e4e4;
+		border-radius: 0px;
+		margin-bottom: 20px;
+		color: #000;
+	}
+	.right-content form input:focus {
+		border-color: #ffc61a;
+		box-shadow: none;
+	}
+	.right-content form select:focus {
+		border-color: #ffc61a;
+		box-shadow: none;
+	} */
+
+
+/* =============== servies section ends===============  */
+
+/* =============== card section starts===============  */
+
+	.card-section .card-body p{
+		color: #101010;
+		font-size: 18px;
+	}
+
+	.card-section .card-body h2{
+		font-size: 30px;
+	}
+
+	.card-section .card-body h2 {
+		font-size: 31px;
+		color: #ffc61a;
+	}
+
+	.card-body-2{
+		color: #000 !important;
+	}
+
+	.card-bottom-icon img {
+		position: absolute;
+		bottom: 0;
+		margin-left: 275px;
+		margin-top: -84px;
+	}
+
+	.card-section .card-2{
+		background-color: #f5f4f2;
+	}
+
+	.card-section .bg-orange{
+		background-color: #ffc61a;
+	}
+
+	.card-section .card-1 .card {
+		border-radius: 0;
+		margin-top: 70px;
+	}
+
+	.card-img {
+		margin-top: -80px;
+	}
+
+	.btn-dark:hover{
+		background-color: #000;
+		color: #ffc61a;
+	}
+
+	.btn-dark {
+		padding: 4px 40px;
+		font-size: 25px;
+	}
+
+/* =============== card section ends===============  */
+
+/* =============== wish section starts===============  */
+
+	.content{
+		background: url(images/content/content-bg.png);
+		background-repeat: no-repeat;
+		padding: 50px 0px;
+		background-size: cover;
+		height: 100%px;
+	}
+
+	.content .content-info {
+		padding-top: 50px;
+	}
+
+	.content .content-info .content-img img {
+		position: absolute;
+	}
+
+	.content .content-info .content-text {
+		margin-left: 117px;
+		position: relative;
+	}
+
+	.content .content-info .content-text h4 {
+		font-size: 25px;
+	}
+
+	.content .content-info .content-text p {
+		font-size: 18px;
+	}
+
+
+/* =============== wish section ends===============  */
+
+
+/* =============== offer-servies section starts===============  */
+	.offer-servies {
+		height: 509px;
+	}
+
+	.offer-servies .left-content2 {
+		padding-top: 120px;
+		padding-right: 90px;
+		padding-left: 10px;
+	}
+
+	.right-content2 img {
+		margin-left: 155px;
+	}
+
+	.offer-servies .right-content2 {
+		width: 380px;
+		margin-bottom: 0px;
+		margin-top: 0px;
+	}
+
+	.offer-servies .left-content2 p {
+		color: #000000;
+		font-size: 18px;
+		padding-right: 47px;
+	}
+
+	.offer-servies .left-content2 h3 {
+		font-weight: 600;
+		font-size: 25px;
+	}
+
+
+/* =============== offer-servies section ends===============  */
+
+/* =============== Testimonial section starts===============  */
+
+
+	.testimonial {
+		background: url(images/Testimonials/Testimonials-bg.png);
+		background-repeat: no-repeat;
+		padding: 50px 0px;
+		background-size: cover;
+		height: 100%;
+	}
+
+	.testimonial-title h2 {
+		font-size: 35px;
+	}
+
+	.testimonial-title h3 {
+		font-size: 45px;
+	}
+
+	.swiper {
+		width:100%;
+		height: 100%;
+		padding-bottom: 50px;
+		}
+
+	.swiper-slide {
+		background-color: #000;
+		padding: 40px;
+		border-radius: 65px;
+		margin-top: 125px;
+	}
+
+	.swiper-slide .testimonial-text h2 {
+		font-size: 25px;
+	}
+
+	.swiper-slide .testimonial-text h3 {
+		font-size: 18px;
+	}
+
+	.swiper-slide  p {
+		font-size: 17px;
+	}
+
+	.swiper-slide .testimonial-img img {
+		position: absolute;
+	}
+
+	.swiper-slide .testimonial-text {
+		padding-left: 100px;
+	}
+
+	.swiper-pagination{
+		color: #fff;
+	}
+
+	.swiper-pagination-bullet {
+		height: 15px;
+		width: 15px;
+		background: var(--swiper-pagination-bullet-inactive-color,#fff);
+		
+	}
+
+
+/* =============== Testimonial section ends===============  */
+
+/* =============== info  section start===============   */
+
+
+	.info {
+		background-color: #ffc61a;
+		height: 100%;
+	}
+
+	.info-font {
+		padding-top: 75px;
+	}
+
+	.info-font h3 {
+		font-size: 35px;
+	}
+
+	.info-font h2 {
+		font-size: 80px;
+	}
+
+
+/* =============== info  section ends===============  */
+
+/* =============== footer-content section starts===============  */
+
+
+	.contact{
+		background: url(images/footer-bg.png);
+		background-repeat: no-repeat;
+		padding: 50px 0px 0px 0px;
+		background-size: cover;
+		height: 100%;
+	}
+
+	.contact h2{
+		font-size: 25px;
+		padding-bottom: 45px;
+		border-bottom: 6px solid #ffc61a;
+	}
+
+	.contact p {
+		font-size: 18px;
+		padding-top: 45px;
+	}
+
+	.contact .about-cab-hub{
+		margin: 0 30px;
+	}
+
+	.contact .download{
+		margin: 0 30px;
+	}
+
+	.contact .about-cab-hub .c1-icon a {
+		padding-right: 13px;
+		font-size: 20px;
+	}
+
+	.c1-icon {
+		padding-bottom: 20px;
+	}
+
+	.c2-icon ul li {
+		padding: 5px 0px;
+	}
+
+	.c2-icon span {
+		font-size: 17px;
+	}
+
+	.c2-icon ul li a i {
+		font-size: 28px;
+	}
+
+	.contact .contact-info ul {
+		padding-top: 49px;
+		padding-left: 0px;
+	}
+
+	.contact .contact-info li i {
+		position: absolute;
+		font-size: 20px;
+		padding-top: 5px;
+	}
+
+	li{
+		list-style-type: none;
+		padding-bottom: 16px;
+	}
+
+	.contact .contact-info li p {
+		position: relative;
+		margin-left: 50px;
+		padding-top: 0px;
+	}
+
+	.contact .contact-info a:hover{
+		color: #ffc61a !important;
+	}
+
+	.contact-info {
+		margin: 0 30px;
+	}
+
+	.footer-comment {
+		background: #0000007a;
+		color: #fff;
+		text-align: center;
+	}
+
+	.contact p {
+		font-size: 18px;
+		margin-bottom: 0px;
+	}
+
+/* =============== footer-content section starts===============  */
