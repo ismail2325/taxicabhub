@@ -533,39 +533,6 @@
 	/* card  section ends  */
 	}
 
-
-	@media only screen and (min-width: 400px){
-
-		.header-title img {
-			top: 80px;
-}
-	/* contact  section start  */
-
-		.contact {
-			height: 100%;
-		}
-
-		.contact-font h2 {
-			font-size: 56px;
-			line-height: 79px;
-		}
-
-	/* contact  section ends */
-		.offer-servies {
-			height: 100%;
-		}
-
-		.info-font h2 {
-		font-size: 45px;
-		}
-
-		.card-img {
-			margin-top: -51px;
-			padding: 0px 69px;
-}
-
-	}
-
 @media only screen and (max-width: 400px){
 
 		.header-title img {
