@@ -3,22 +3,6 @@
 
 	@media only screen and (max-width: 1200px){
 
-		.card-bottom-icon img {
-			position: absolute;
-			margin-left: 216px;
-			margin-top: -74px;
-		}
-
-		.card-section .card-body h2 {
-			font-size: 26px;
-		}
-
-		.card-section .card-body p {
-			font-size: 15px;
-		}
-
-		/* card-section ends */
-
 		/* content section starts */
 
 		.content-btn {
@@ -157,30 +141,6 @@
 
 	/* content section ends */
 
-	/* card section starts */
-
-		.card-img {
-			margin-top: -50px;
-		}
-
-		.card-section .card-body{
-			padding: 5px;
-		}
-
-		.card-section .card-body p{
-			font-size: 14px;
-		}
-
-		.card-section .card-body h2{
-			font-size: 21px;
-		}
-
-		.card-bottom-icon img {
-			margin-left: 163px;
-			height: 46px;
-		}
-
-	/* card section ends */
 
 	/* <!-- offer-servies section starts --> */
 
@@ -271,45 +231,6 @@
 		.left-content {
 			padding-right: 0;
 		}
-
-	/* .s2-content {
-		height: 1080px;
-	}
-	.right-content h2 {
-		margin-top: 70px;
-	}
-
-	.right-content {
-		padding-top: 0px !important;
-		margin-left: 0px !important;
-	}
-	.left-content {
-		padding-top: 84px;
-	} */
-
-	/* servies section ends */
-
-	/* card section starts */
-
-		.card-1 {
-			margin-bottom: 50px;
-		}
-
-		.card-img {
-			margin-top: -75px;
-			padding: 0px 69px;
-		}
-
-
-		.card-bottom-icon img {
-			margin-left: 458px;
-			height: 50px;
-		}
-
-
-	/* card section ends */
-
-	/* content section starts */
 
 		.content {
 			height: 100%;
@@ -426,25 +347,6 @@
 	/* servies section ends */
 
 
-	/* card section starts */
-		.card-1 {
-			margin-bottom: 50px;
-		}
-
-		.card-img {
-			margin-top: -75px;
-			padding: 0px 69px;
-		}
-
-
-		.card-bottom-icon img {
-			margin-left: 458px;
-			height: 50px;
-		}
-
-	/* card section ends */
-
-
 	/* <!-- offer-servies section starts --> */
 
 		.left-content {
@@ -525,13 +427,8 @@
 		}
 
 	/* contact  section ends */
-	/* card  section start  */
-		.card-bottom-icon img {
-			margin-left: 418px;
-			height: 50px;
-		}
-	/* card  section ends  */
-	}
+}
+
 
 @media only screen and (max-width: 400px){
 
@@ -557,11 +454,6 @@
 		.info-font h2 {
 		font-size: 45px;
 		}
-
-		.card-img {
-			margin-top: -51px;
-			padding: 0px 69px;
-}
 
 	}
 
@@ -676,11 +568,6 @@
 	/* servies section ends */
 
 	/* card section starts */
-		.card-title {
-			height: 127px;
-		}
-
-
 	/* card section ends */
 	/* wish section starts */
 		.content {
@@ -813,3 +700,94 @@
 
 
 	}
+
+	/* card section starts */
+	@media (max-width:992px){
+
+.card-body h2 {
+	font-size: 19px;
+	font-weight: bold;
+}
+.card-body p {
+	color: #101010;
+	font-size: 15px;
+}
+.card-body h3 {
+	font-size: 40px;
+}
+
+.card-star img {
+	position: absolute;
+	margin-top: -49px;
+	margin-left: 56px;
+	height: 50px;
+}
+
+.card-car img {
+	margin-top: -43px;
+}
+}
+
+@media(max-width:768px){
+
+.card-body h2 {
+	font-size: 30px;
+}
+
+.card-body p {
+	font-size: 18px;
+}
+
+.card-body h3 {
+	font-size: 43px;
+}
+
+.card-star img {
+	position: absolute;
+	margin-top: -67px;
+	margin-left: 188px;
+	height: 68px;
+}
+
+.card-car img {
+	margin-top: -78px;
+}
+}
+
+
+@media(max-width:556px){
+
+
+.card-star img {
+	margin-left: 194px;
+}
+}
+
+@media(max-width: 480px){
+
+
+.card-star img {
+	margin-left: 158px;
+}
+}
+
+
+@media(max-width:320px){
+
+
+.card-star img {
+	margin-left: 77px;
+}
+
+}
+
+
+@media(max-width:290px){
+
+
+.card-star img {
+	margin-left: 62px;
+}
+
+}
+	/* card section ends */

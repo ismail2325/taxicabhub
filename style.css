@@ -14,6 +14,13 @@
 	.bg-color{
 		color: #ffc61a;
 	}
+	.bg-orange{
+        background-color: #ffc61a;
+    }
+
+	.bg-gray{
+    	background-color: #f5f4f2;
+    }
 
 	.bg-color-2{
 		color: #000;
@@ -27,13 +34,12 @@
 		letter-spacing: 1px;
 	}
 
-	.btn-orange {
+    .btn-orange {
 		background-color: #ffc61a;
 		color: #000;
 		font-family: "Bebas Neue", sans-serif;
 		border-color: #000;
-		padding: 3px 40px;
-		font-size: 25px;
+        letter-spacing: 1px;
 	}
 
 	.btn-orange:hover{
@@ -316,7 +322,46 @@
 
 /* =============== card section starts===============  */
 
-	.card-section .card-body p{
+
+    .btn-dark:hover{
+		background-color: #000;
+		color: #ffc61a;
+	}
+
+	    .btn-orange:hover {
+        background-color: #000;
+		color: #ffc61a;
+        transition: 0.6s;
+	}
+	.btn {
+	padding: 0px 17px;
+	font-size: 29px;
+    border-radius: 5px;
+}
+
+
+
+.card {
+	border-radius: 0px;
+	margin-top: 120px;
+}
+.card-body h3 {
+	font-size: 43px;
+}
+.card-car img {
+	margin-top: -80px;
+}
+.card p{
+    color: #101010;
+}
+
+.card-star img {
+	position: absolute;
+	margin-top: -73px;
+	margin-left: 101px;
+}
+
+	/* .card-section .card-body p{
 		color: #101010;
 		font-size: 18px;
 	}
@@ -366,7 +411,7 @@
 	.btn-dark {
 		padding: 4px 40px;
 		font-size: 25px;
-	}
+	} */
 
 /* =============== card section ends===============  */
 
