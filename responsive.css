@@ -258,7 +258,7 @@
 	/* <!-- offer-servies section starts --> */
 
 		.offer-servies {
-			height: 803px;
+			height:100%;
 		}
 
 		.offer-servies .left-content2 {
@@ -280,11 +280,12 @@
 			padding-bottom: 16px;
 			text-align: center;
 		}
+  .right-content2 img {
+    margin-left: 6px;
+    margin-top: 5px;
+  }
 
-		.right-content2 img {
-			margin-left: 85px;
-			margin-top: 5px;
-		}
+
 
 		.right-content2 {
 			margin: 0 auto;
@@ -463,7 +464,7 @@
 
 	/* contact  section ends */
 		.offer-servies {
-			height: 100%;
+			height: 100% !important;
 		}
 
 		.info-font h2 {
@@ -784,6 +785,12 @@
 .card-star img {
 	margin-left: 96px;
 }
+
+}
+@media (max-width: 480px) {
+  .card-star img {
+    margin-left: 117px;
+  }
 }
 
 

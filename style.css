@@ -109,7 +109,7 @@
 	}
 
 	.header-title p {
-		font-size: 16px;
+		font-size: 14px;
 		letter-spacing: 11px;
 		line-height: 50px;
 		font-weight: 700;
@@ -460,11 +460,11 @@
 		height: 509px;
 	}
 
-.offer-servies .left-content2 {
-	padding-top: 55px;
-	padding-right: 90px;
-	padding-left: 10px;
-}
+	.offer-servies .left-content2 {
+		padding-top: 55px;
+		padding-right: 90px;
+		padding-left: 10px;
+	}
 
 	.right-content2 img {
 		margin-left: 76px;
