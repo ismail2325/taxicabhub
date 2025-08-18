@@ -132,7 +132,7 @@
 
 	.s2-content {
 		background-color: #ffc61a;
-		height: 670px;
+		height: 732px;
 		font-family: "Lato", sans-serif;
 	}
 
@@ -333,11 +333,12 @@
 		color: #ffc61a;
         transition: 0.6s;
 	}
+
 	.btn {
 	padding: 0px 17px;
-	font-size: 29px;
-    border-radius: 5px;
-}
+	font-size: 20px;
+	border-radius: 5px;
+	}
 
 
 
@@ -429,6 +430,10 @@
 		padding-top: 50px;
 	}
 
+	.content-title h2 {
+	margin-bottom: 0px;
+	}
+
 	.content .content-info .content-img img {
 		position: absolute;
 	}
@@ -455,14 +460,16 @@
 		height: 509px;
 	}
 
-	.offer-servies .left-content2 {
-		padding-top: 120px;
-		padding-right: 90px;
-		padding-left: 10px;
-	}
+.offer-servies .left-content2 {
+	padding-top: 55px;
+	padding-right: 90px;
+	padding-left: 10px;
+}
 
 	.right-content2 img {
-		margin-left: 155px;
+		margin-left: 76px;
+		position: relative;
+		margin-top: 16px;
 	}
 
 	.offer-servies .right-content2 {
@@ -560,7 +567,7 @@
 	}
 
 	.info-font {
-		padding-top: 75px;
+	padding-top: 60px;
 	}
 
 	.info-font h3 {
@@ -569,6 +576,7 @@
 
 	.info-font h2 {
 		font-size: 80px;
+		padding-bottom: 60px;
 	}
 
 
@@ -605,12 +613,12 @@
 	}
 
 	.contact .about-cab-hub .c1-icon a {
-		padding-right: 13px;
+		padding-right: 20px;
 		font-size: 20px;
 	}
 
 	.c1-icon {
-		padding-bottom: 20px;
+		padding-top: 20px;
 	}
 
 	.c2-icon ul li {

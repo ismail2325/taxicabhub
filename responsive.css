@@ -149,9 +149,13 @@
 		}
 
 		.offer-servies .left-content2 {
-			padding-top: 0px;
+			padding-top: 35px;
 			padding-right: 0px;
 			padding-left: 0px;
+		}
+
+		.offer-servies .right-content2 {
+			margin-top: 11px;
 		}
 
 		.left-content p {
@@ -180,6 +184,10 @@
 	/* Testimonial section starts  */
 		.testimonial-card p {
 			font-size: 12px;
+		}
+
+		.testimonial-title h2 {
+			margin-bottom: 0px;
 		}
 
 	/* Testimonial section ends */
@@ -275,7 +283,7 @@
 
 		.right-content2 img {
 			margin-left: 85px;
-			margin-top: 0;
+			margin-top: 5px;
 		}
 
 		.right-content2 {
@@ -297,7 +305,9 @@
 		}
 
 	/* Testimonial section ends */
-
+		.info-font h2 {
+			font-size: 69px;
+		}
 	/* contact  section start  */
 
 		.contact-font h2 {
@@ -330,11 +340,11 @@
 			margin-top: 30px;
 		}
 
-		.header-menu .header-list .header-item {
-			margin: 5px 150px;
-			padding: 5px 19px;
-			text-align: center;
-		}
+.header-menu .header-list .header-item {
+	margin: 5px 150px;
+	padding: 5px 9px;
+	text-align: center;
+}
 
 	/* header section ends */
 	/* servies section starts */
@@ -385,6 +395,10 @@
 			padding-top: 0px;
 			text-align: center;
 		}
+		.header-title img {
+				top: 69px;
+		}
+		
 
 		.right-content {
 			height: 475px;
@@ -435,6 +449,7 @@
 		.header-title img {
 			top: 80px;
 }
+
 	/* contact  section start  */
 
 		.contact {
@@ -661,7 +676,7 @@
 		}
 
 		.info-font h2 {
-			font-size: 45px;
+			font-size: 43px;
 		}
 
 	/* info section ends  */
@@ -767,7 +782,7 @@
 
 
 .card-star img {
-	margin-left: 158px;
+	margin-left: 96px;
 }
 }
 
